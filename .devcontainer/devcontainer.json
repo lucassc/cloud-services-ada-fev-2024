@@ -1,0 +1,15 @@
+{
+    "postAttachCommand": "/bin/bash .devcontainer/setup.sh",
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "github.codespaces",
+                "eamodio.gitlens",
+                "hashicorp.terraform",
+                "ms-azuretools.vscode-azureterraform",
+                "redhat.vscode-yaml",
+                "foxundermoon.shell-format"
+            ]
+        }
+    }
+}
