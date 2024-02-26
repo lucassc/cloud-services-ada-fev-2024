@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
 
 ## 
-echo "Configurando seu Codespaces"
+echo "Configurando seu Codespace"
