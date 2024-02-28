@@ -32,3 +32,20 @@ sudo sh -c "rabbitmqadmin --bash-completion > /etc/bash_completion.d/rabbitmqadm
 ```BASH
 rabbitmqadmin -V test publish exchange=amq.fanout payload="hello, world" routing_key=""
 ```
+
+### Python example
+
+[Using the Blocking Connection to consume messages from RabbitMQ](https://pika.readthedocs.io/en/stable/examples/blocking_consume.html)
+
+[RabbitMQ tutorial - "Hello world!"](https://www.rabbitmq.com/tutorials/tutorial-one-python)
+
+| Example                               |
+| ------------------------------------- |
+| [Example 1](./mensageiria_example_1/) |
+| [Example Pub/Sub](./pub_sub_example/) |
+
+```BASH
+python producer.py
+
+python consumer_<team-name>_team.py
+```
