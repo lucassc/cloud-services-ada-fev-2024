@@ -1,6 +1,5 @@
 # Object Storage
 
-
 ## MinIO
 
 ### Para rodar MinIO
@@ -11,10 +10,14 @@ docker run  --name minio --rm -p 9000:9000 -p 9001:9001 quay.io/minio/minio serv
 
 [Acesse UI aqui](http://localhost:9001)
 
-
 #### IP interno Docker
 
 ![minIO_docker_run_output](./images/docker_run_minio_output.png)
+
+
+#### Python
+
+[Run Python](./python_atividade_01_aula.md)
 
 ### mc: MinIO CLI
 
